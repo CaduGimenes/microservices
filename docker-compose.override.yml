@@ -35,3 +35,10 @@ services:
     ports:
       - "8001:80"
 
+
+  discout.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
